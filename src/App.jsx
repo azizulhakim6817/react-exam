@@ -10,12 +10,14 @@ import image3 from "./images/img carusel/images (3).png";
 import image4 from "./images/img carusel/images (4).png";
 import image5 from "./images/img carusel/images (5).png";
 import image6 from "./images/img carusel/images (6).png";
+import facebook from "./images/img1/facebook.png";
 import img1 from "./images/img1/img1.png";
+import spricingicon from "./images/img1/pricingicon.png";
 import img5 from "./images/img1/section3img5.jpg";
 import star from "./images/img1/star.png";
 import logo1 from "./images/log.jpg";
 
-import spricingicon from "./images/img1/pricingicon.png";
+import whatsup from "./images/img1/whatsup.png";
 
 import icon1 from "./images/img1/section2-icon.png";
 import section2img from "./images/img1/section2-img.png";
@@ -563,6 +565,52 @@ function App() {
           <br></br>
         </div>
       </section>
+
+      {/* /* section-Footer */}
+      <footer className="container-footer">
+        <div className="footer-containt1">
+          <button>TASTIMONIAL</button>
+          <h3>
+            Ready to <span className="spanfooter"> Get Started?</span>
+          </h3>
+          <p>
+            Experience the future of business operations with AI
+            automation—increased<br></br> speed, accuracy, and adaptability,
+            driving overall productivity gains.
+          </p>
+          <button>Book Your Free Audit Call</button>
+        </div>
+
+        <div className="footer-manu-wrapper">
+          <div className="socialicon">
+            <img src={facebook} alt="facebook" />
+            <img src={whatsup} alt="twitter" />
+            <img src={whatsup} alt="whatsup" />
+          </div>
+          <div>
+            <img className="footerlogo" src={logo1} alt="logo1" />
+            <p className="">
+              Build a powerful agency site with<br></br> Framer.
+            </p>
+          </div>
+          {/* footer manu */}
+          <div>
+            <nav>
+              <ul>
+                <li>
+                  <a href="#">Home</a>
+                </li>
+                <li>
+                  <a href="#">About us</a>
+                </li>
+                <li>
+                  <a href="#">Blog</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </footer>
     </>
   );
 }
